@@ -4,4 +4,12 @@
     <h2>Enter a word to find it's definition: </h2>
 
     <input type = "text" id = "word" name = "word">
+    <button id = submitBtn> Get Definition</button>
 </body>
+<script>
+let getDef = document.getElementById('submitBtn');
+getDef.addEventListener('click', function(){
+window.location.href = "/new";
+})
+
+</script>
